@@ -11,7 +11,7 @@ Amazon App store
 Google Play
 [download ] (https://play.google.com/store/apps/details?id=com.bim.pubmed)
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/hongpingliang/mobile_app_pubmed_mobile/blob/master/icon.png?raw=true "PubMed Mobile")
 
 
 
