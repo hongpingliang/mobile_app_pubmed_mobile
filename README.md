@@ -4,8 +4,8 @@
 
 Search PubMed database with over 21 million citations for biomedical articles and life science journals
 
-* Amazon App store: [more info](https://www.amazon.com/Web-Solutions-PubMed-Mobile/dp/B004T6HAFY/ref=sr_1_1?crid=EVAMOYJHKIZP&keywords=pubmed+mobile&qid=1576250568&s=mobile-apps&sprefix=pubm%2Caps%2C146&sr=1-1)
 * Google Play: [more info](https://play.google.com/store/apps/details?id=com.bim.pubmed)
+* Amazon App store: [more info](https://www.amazon.com/Web-Solutions-PubMed-Mobile/dp/B004T6HAFY/ref=sr_1_1?crid=EVAMOYJHKIZP&keywords=pubmed+mobile&qid=1576250568&s=mobile-apps&sprefix=pubm%2Caps%2C146&sr=1-1)
 
 ![alt text](https://github.com/hongpingliang/mobile_app_pubmed_mobile/blob/master/icon.png?raw=true "PubMed Mobile")
 
