@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:paddingTop="5dip" android:background="@color/white"
+	android:paddingLeft="15dip" android:paddingRight="15dip"
+	android:paddingBottom="15dip">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5dip"
+		android:background="@color/white">
+
+		<TextView android:layout_width="wrap_content"
+			android:id="@+id/comment_row_submitter_label"
+			android:textColor="@color/gray" android:text="Crash"
+			android:layout_height="wrap_content" />
+
+		<View android:layout_width="0dip" android:layout_height="0dip"
+			android:layout_weight="1" />
+
+		<TextView android:layout_width="wrap_content"
+			android:textColor="@color/gray"
+			android:textSize="10dip"
+			android:id="@+id/comment_row_date_submitted_label"
+			android:text="1122233" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<TextView android:layout_width="fill_parent"
+		android:paddingTop="5dip" android:textColor="@color/black"
+		android:textSize="16dip" android:id="@+id/comment_row_comment_label"
+		android:text=" dcomement" android:layout_height="wrap_content" />
+
+	<View android:layout_marginTop="10dip"
+		android:background="@drawable/list_row_separator"
+		android:layout_width="fill_parent" android:layout_height="1dp"/>
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pubmed_blue"
+    android:orientation="vertical"
+    android:paddingLeft="3dp" android:paddingRight="3dp"
+    android:paddingTop="2dp"
+    android:textColor="@color/black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+        <LinearLayout
+            android:id="@+id/list_row_loading_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/list_row_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/list_article_loading"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_row_data_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="1dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="3dip" >
+
+            <TextView
+                android:id="@+id/list_article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/solid_blue"
+                android:textColorLink="@color/solid_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/list_article_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:paddingTop="3dip"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/list_article_journal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:paddingTop="3dip"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip" >
+
+                <TextView
+                    android:id="@+id/list_article_pmid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dip"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/list_article_row_no_abstract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingTop="1dip"
+                    android:text="@string/list_article_row_no_abstract"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/list_article_pmc_free_article_button"
+                    android:layout_width="130dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/pmc_free_article" />
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/list_article_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

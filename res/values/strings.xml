@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PubMed Mobile</string>
+	<string name="app_name_welcome">Welcome</string>
+	<string name="app_name_abstract">Abstract</string>
+	<string name="app_name_my_search">My Searches</string>
+	<string name="app_name_my_article">My Articles</string>
+	<string name="app_name_sort">Sort By</string>
+
+	<string name="url_root">http://www.bioinfomobile.com</string>
+	<string name="url_rootff">http://152.144.16.187/pubmed</string>
+	<string name="url_rootcc">http://192.168.2.3/pubmed</string>
+	<string name="url_pubmed_device">/m/pubmed/doDevice.php</string>
+
+	<string name="submit">Submit</string>
+	<string name="search">Search</string>
+	<string name="cancel">Cancel</string>
+	<string name="back">Back</string>
+	<string name="clear">Clear</string>
+	<string name="run">Run</string>
+	<string name="close">Close</string>
+	<string name="go">Go!</string>
+
+	<string name="menu_back">Back</string>
+	<string name="menu_pubmed_my_search">My Searches</string>
+	<string name="menu_pubmed_my_article">My Articles</string>
+	<string name="menu_pubmed_upgrade">Upgrade</string>
+
+	<string name="menu_save_article">Save Article</string>
+	<string name="menu_email_article">Share Article</string>
+	<string name="menu_save_articles">Save Articles</string>
+	<string name="menu_email_articles">Share Articles</string>
+	<string name="menu_sort_article">Sort</string>
+	<string name="menu_save_search">Save Search</string>
+	<string name="menu_evernote">Evernote</string>
+
+	<string name="menu_select_all">Select All</string>
+	<string name="menu_delete">Delete</string>
+
+	<string name="pubmed_author_journal_pubdata">
+		Author, journal, publication date...
+	</string>
+
+	<string name="pubmed_radio_and">All of these</string>
+	<string name="pubmed_radio_or">Any of these</string>
+	<string name="pubmed_search_term_hint">e.g. colon cancer</string>
+	<string name="pubmed_human_or_animal">Humans or Animals</string>
+	<string name="pubmed_human">Humans</string>
+	<string name="pubmed_animal">Animals</string>
+	<string name="pubmed_gender">Gender</string>
+	<string name="pubmed_male">Male</string>
+	<string name="pubmed_female">Female</string>
+	<string name="pubmed_sort_by">Sort by</string>
+	<string name="pubmed_sort_by_author">Author</string>
+	<string name="pubmed_sort_by_journal">Journal</string>
+	<string name="pubmed_sort_by_pub_date">Pub Date</string>
+	<string name="pubmed_sort_by_last_author">Last Author</string>
+	<string name="pubmed_save_search">Save the search query</string>
+
+	<string name="pubmed_list_field_title">Select a Field</string>
+
+
+	<string name="list_article_result">Results</string>
+	<string name="list_article_load_more">Load more articles</string>
+	<string name="list_article_loading">Loading...</string>
+	<string name="list_article_row_view_abstract">abstract</string>
+	<string name="list_article_row_no_abstract">no abstract</string>
+	<string name="list_article_row_related_article">
+		<u>related</u>
+	</string>
+	<string name="list_article_row_date_hint">yyyy/mm/dd</string>
+
+	<string name="welcome_title">Tips</string>
+
+	<string name="sort_by_pub_date">Publication Date</string>
+	<string name="sort_by_first_author">First Author</string>
+	<string name="sort_by_last_author">Last Author</string>
+	<string name="sort_by_journal">Journal</string>
+	<string name="sort_by_title">Title</string>
+	<string name="abstract_pubmed_page">PubMed Page</string>
+	<string name="pmc_free_article">PMC Free Article</string>
+
+	<string name="app_name_user">To comment, please enter</string>
+	<string name="abstract_comment_add">Add a Comment</string>
+	<string name="abstract_comment_edit">Edit</string>
+	<string name="abstract_comment_view_all">View All Comments</string>
+	<string name="save">Save</string>
+	<string name="comment_hint">Comments</string>
+	<string name="comment_everybody">everybody see it</string>
+	<string name="comment_only_me">only for me</string>
+	<string name="user_name_hint">Nickame or real name</string>
+	<string name="user_name_detail">
+		If you post a public comment, the name will be displayed to
+		public along with the comment
+	</string>
+	<string name="user_email_hint">Email</string>
+	<string name="user_email_detail">Not diplayed anywhere</string>
+</resources>

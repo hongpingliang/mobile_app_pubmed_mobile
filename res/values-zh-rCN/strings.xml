@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PubMed 医学文献</string>
+	<string name="app_name_welcome">欢迎</string>
+	<string name="app_name_abstract">摘要</string>
+	<string name="app_name_my_search">我的搜索</string>
+	<string name="app_name_my_article">我的文章</string>
+	<string name="app_name_sort">排序</string>
+
+	<string name="submit">递交</string>
+	<string name="search">搜索</string>
+	<string name="cancel">取消</string>
+	<string name="back">返回</string>
+	<string name="clear">清除</string>
+	<string name="run">搜索</string>
+	<string name="close">关闭</string>
+	<string name="go">关闭</string>
+
+	<string name="menu_back">返回</string>
+	<string name="menu_pubmed_my_search">我的搜索</string>
+	<string name="menu_pubmed_my_article">我的文章</string>
+
+	<string name="menu_save_article">保存文章</string>
+	<string name="menu_email_article">邮寄文章</string>
+	<string name="menu_save_articles">保存文章</string>
+	<string name="menu_email_articles">邮寄文章</string>
+	<string name="menu_sort_article">排序</string>
+	<string name="menu_save_search">保存搜索</string>
+
+	<string name="menu_select_all">选择全部</string>
+	<string name="menu_delete">删除</string>
+
+	<string name="pubmed_author_journal_pubdata">
+		作者, 刊名, 出版日期...
+	</string>
+
+	<string name="pubmed_radio_and">所有这些</string>
+	<string name="pubmed_radio_or">任何</string>
+	<string name="pubmed_search_term_hint">例如, colon cancer</string>
+	<string name="pubmed_human_or_animal">人类或动物</string>
+	<string name="pubmed_human">人类</string>
+	<string name="pubmed_animal">动物</string>
+	<string name="pubmed_gender"> 性别</string>
+	<string name="pubmed_male">男性</string>
+	<string name="pubmed_female">女性</string>
+	<string name="pubmed_sort_by">排序方式</string>
+	<string name="pubmed_sort_by_author">作者</string>
+	<string name="pubmed_sort_by_journal">刊名</string>
+	<string name="pubmed_sort_by_pub_date">出版日期</string>
+	<string name="pubmed_sort_by_last_author">最后作者</string>
+	<string name="pubmed_save_search">保存搜索</string>
+
+	<string name="pubmed_list_field_title">请选择</string>
+
+
+	<string name="list_article_result">结果</string>
+	<string name="list_article_load_more">下载更多的文章</string>
+	<string name="list_article_loading">下载, 请候...</string>
+	<string name="list_article_row_view_abstract">摘要</string>
+	<string name="list_article_row_no_abstract">没有摘要</string>
+	<string name="list_article_row_related_article">
+		<u>相关</u>
+	</string>
+	<string name="list_article_row_date_hint">yyyy/mm/dd</string>
+
+	<string name="welcome_title">小巧门</string>
+
+	<string name="sort_by_pub_date">出版日期</string>
+	<string name="sort_by_first_author">第一作者</string>
+	<string name="sort_by_last_author">最后作者</string>
+	<string name="sort_by_journal">刊名</string>
+	<string name="sort_by_title">文章标题</string>
+	<string name="abstract_pubmed_page">PubMed 网页</string>
+	<string name="pmc_free_article">PMC 免费文章</string>
+
+</resources>

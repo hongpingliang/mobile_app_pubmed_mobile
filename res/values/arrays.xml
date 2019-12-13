@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="pubmed_sort_by_list">
+    	<item>Recently Added</item>
+        <item>Publication Date</item>
+        <item>First Author</item>
+        <item>Last Author</item>
+        <item>Journal</item>
+        <item>Title</item>
+    </string-array>
+</resources>

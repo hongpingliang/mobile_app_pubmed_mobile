@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_pubmed_my_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/menu_pubmed_my_search"/>
+    <item
+        android:id="@+id/menu_pubmed_my_article"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/menu_pubmed_my_article"/>
+    <item
+        android:id="@+id/menu_pubmed_upgrade"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:title="@string/menu_pubmed_upgrade"/>
+
+</menu>

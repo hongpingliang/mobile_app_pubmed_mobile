@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="5dp"
+	android:background="@drawable/bg_main" android:textColor="@color/black">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:background="@drawable/bg_content" 
+		android:paddingTop="5dp" android:paddingLeft="10dp"
+		android:paddingRight="5dp" android:paddingBottom="20dp">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="horizontal"
+			android:layout_marginTop="5dip" android:layout_marginBottom="10dip"
+			android:paddingLeft="5dip" android:paddingRight="5dip">
+
+			<Button android:visibility="gone"
+				android:text="@string/pmc_free_article"
+				android:id="@+id/show_abstract_full_article_textview"
+				android:layout_width="130dip" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+
+			<View android:layout_width="0dip"
+				android:layout_height="0dip" android:layout_weight="1" />
+
+			<Button android:text="@string/abstract_pubmed_page"
+				android:id="@+id/show_abstract_link_text_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right|center_vertical" />
+
+		</LinearLayout>
+
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:paddingLeft="5dip"
+			android:paddingRight="5dip" android:orientation="vertical">
+
+			<TextView android:layout_width="wrap_content"
+				android:id="@+id/abstract_my_comment_prefix_label"
+				android:text="My comments"
+				android:textSize="12dip"
+				android:layout_height="wrap_content" android:visibility="gone" />
+
+			<TextView android:layout_width="wrap_content"
+				android:id="@+id/abstract_my_comment_label"
+				android:text="My comments"
+				android:paddingLeft="20dip"
+				android:layout_height="wrap_content" android:visibility="gone" />
+
+
+			<Button android:layout_width="wrap_content"
+				android:layout_below="@+id/abstract_comment_label"
+				android:layout_height="wrap_content" android:visibility="gone"
+				android:id="@+id/abstract_comment_edit"
+				android:text="@string/abstract_comment_add" />
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView android:layout_width="wrap_content"
+					android:layout_below="@+id/abstract_comment_edit"
+					android:id="@+id/abstract_comment_cnt_label"
+					android:visibility="gone" android:text="Comments (0)"
+					android:layout_height="wrap_content"
+					android:textColor="@color/gray" android:textSize="12dip" />
+
+				<View android:layout_width="0dip"
+					android:layout_height="0dip" android:layout_weight="1" />
+
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:visibility="gone"
+					android:id="@+id/abstract_comment_view_all"
+					android:text="@string/abstract_comment_view_all" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<TextView android:id="@+id/show_abstract_abstract_label"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="@color/black_lighter" android:paddingRight="5dip"
+			android:text="load..." android:textSize="16sp" />
+
+
+	</LinearLayout>
+
+</ScrollView>
+
